@@ -1,6 +1,7 @@
 html, body {
     padding: 0px;
     margin: 0px;
+    background-color: rgb(151, 167, 206);
 }
 /*HEADER*/
 header {
@@ -8,13 +9,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 20px;
 }
 header h1 {
     padding: 20px;
-    background-color: red;
+    background-color: rgb(73, 99, 127);
+    color: white;
 }
 
- 
 /*NAV*/
 ul {
     color: white;
@@ -25,3 +27,10 @@ ul {
     padding: 0 20px;
 }
 
+/*BANNER*/
+.banner h1 {
+    padding: 20px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
