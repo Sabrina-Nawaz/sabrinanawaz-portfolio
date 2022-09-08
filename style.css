@@ -1,6 +1,27 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
 /*HEADER*/
 header {
     background-color: #424C58;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1 {
+    padding: 20px;
+    background-color: red;
 }
 
+ 
+/*NAV*/
+ul {
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0 20px;
+}
 
