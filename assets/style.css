@@ -1,0 +1,56 @@
+body {
+    padding: auto;
+    margin: auto;
+    background-color: rgb(151, 167, 206);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0
+}
+
+/*HEADER*/
+
+header {
+    background-color: #424C58;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px
+}
+
+header h1 {
+    padding-left: 10px;
+    background-color: rgb(43, 41, 59);
+    color: white;
+}
+
+header nav a {
+    text-decoration: none;
+    padding-right: 10px;
+    color: white;
+    font-size: 18px
+}
+
+header nav a:hover {
+    color: red;
+}
+
+/*BANNER*/
+.banner {
+    background-color: #fff;
+    min-height: 20vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    padding: 3%
+}
+
+.banner div h2{
+    font-size: 50px;
+}
