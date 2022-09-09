@@ -1,7 +1,7 @@
 body {
     padding: auto;
     margin: auto;
-    background-color: rgb(151, 167, 206);
+    background-color: rgb(246, 251, 253);
 }
 
 h1,
@@ -25,8 +25,8 @@ header {
 
 header h1 {
     padding-left: 10px;
-    background-color: rgb(43, 41, 59);
-    color: white;
+    background-color: rgb(120, 201, 215);
+    color: #424C58;
 }
 
 header nav a {
@@ -49,10 +49,13 @@ header nav a:hover {
     align-items: flex-end;
     text-align: right;
     padding: 3%
+    
 }
 
 .hero div h2{
     font-size: 50px;
+    background-color: rgb(120, 201, 215);
+    color: #424C58;
 }
 
 /*MAIN*/
@@ -64,5 +67,6 @@ main aside h2 {
     justify-content: flex-start;
     align-items: center;
     text-align: left;
+    color: #424C58;
 
 }
