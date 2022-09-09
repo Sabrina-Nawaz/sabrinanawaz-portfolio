@@ -40,8 +40,8 @@ header nav a:hover {
     color: red;
 }
 
-/*BANNER*/
-.banner {
+/*HERO*/
+.hero {
     background-color: #fff;
     min-height: 20vh;
     display: flex;
@@ -51,6 +51,18 @@ header nav a:hover {
     padding: 3%
 }
 
-.banner div h2{
+.hero div h2{
     font-size: 50px;
+}
+
+/*MAIN*/
+main aside h2 {
+    padding: 10px;
+    margin: 0px;
+    min-height: 20vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+
 }
