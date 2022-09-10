@@ -62,7 +62,7 @@ header nav a:hover {
 /*MAIN*/
 main aside h2 {
     padding: 10px;
-    margin: 0px;
+    margin: -5px;
     min-height: 20vh;
     display: flex;
     justify-content: flex-start;
@@ -75,7 +75,12 @@ main aside h2 {
 div p {
     display: flex;
     justify-content: center;
-    margin-bottom: 0px 300px;
+    flex-wrap: wrap;
+    text-align: justify;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    padding-left: 150px;
+    padding-right: 100px;
     
 
 }
