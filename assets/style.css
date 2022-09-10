@@ -83,7 +83,7 @@ main aside h2 {
 
 div p {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     flex-wrap: wrap;
     text-align: justify;
     margin-bottom: 50px;
@@ -98,7 +98,7 @@ div p {
 footer h2 {
     padding: 10px;
     margin: 0px;
-    min-height: 20vh;
+    /*min-height: 10vh;*/
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -108,7 +108,7 @@ footer h2 {
 
 footer div {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 
 }
 
@@ -119,11 +119,9 @@ footer a {
     color: black;
     font-size: 20px;
 }
-   
-   /* display: flex;
-    justify-content: ;
-    align-items: baseline;
-    padding-right: 10px;
-    color: black;
-    font-size: 18px
+
+footer p {
+    padding: 75px;
+    display: flex;
+    justify-content: center;
 }
