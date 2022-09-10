@@ -94,11 +94,10 @@ div p {
 
 }
 
-/*FOOTER*/
-footer h2 {
+.contactme h2 {
     padding: 10px;
     margin: 0px;
-    /*min-height: 10vh;*/
+    min-height: 10vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -106,13 +105,13 @@ footer h2 {
     color: #424C58;
 }
 
-footer div {
+.contactme div {
     display: flex;
     justify-content: space-evenly;
 
 }
 
-footer a {
+.contactme a {
     display: flex;
     align-items: center;
     padding-right: 10px;
@@ -120,6 +119,7 @@ footer a {
     font-size: 20px;
 }
 
+/*FOOTER*/
 footer p {
     padding: 75px;
     display: flex;
