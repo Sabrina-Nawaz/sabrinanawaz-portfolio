@@ -102,13 +102,13 @@ main {
 }
 
 
-#work a  {
+.study-guide  {
     display: flex;
     min-height: 10vh;
     justify-content: space-between;
     align-items: flex-end;
     padding: 1%;
-    background-image: url(./imgs/Pre-Work Study.png);
+    background-image: url(./imgs/Pre-Work\ Study.png)
     
 }
 
