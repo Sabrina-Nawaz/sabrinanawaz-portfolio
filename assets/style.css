@@ -59,6 +59,14 @@ header nav a:hover {
     color: #424C58;
 }
 
+.hero img {
+    width:2000px;
+    height: 300px;
+    display: flex;
+    align-items: stretch;
+    
+}
+
 /*MAIN*/
 main aside h2 {
     padding: 10px;
