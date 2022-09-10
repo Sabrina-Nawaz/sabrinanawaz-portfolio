@@ -70,3 +70,29 @@ main aside h2 {
     color: #424C58;
 
 }
+
+div p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px 300px;
+    
+
+}
+
+/*FOOTER*/
+footer h2 {
+    padding: 10px;
+    margin: 0px;
+    min-height: 20vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    color: #424C58;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px 300px;
+}
