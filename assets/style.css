@@ -2,6 +2,7 @@ body {
     padding: auto;
     margin: auto;
     background-color: rgb(246, 251, 253);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 h1,
@@ -37,7 +38,7 @@ header nav a {
 }
 
 header nav a:hover {
-    color: red;
+    color: rgb(0, 162, 255);
 }
 
 /*HERO*/
