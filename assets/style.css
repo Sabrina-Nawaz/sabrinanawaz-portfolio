@@ -21,13 +21,20 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:10px
+    padding: 10px
 }
 
 header h1 {
     padding-left: 10px;
     background-color: rgb(120, 201, 215);
     color: #424C58;
+}
+
+header img {
+    border: 2px solid #ddd;
+    border-radius: 100px;
+    padding: 5px;
+    height: 120px;
 }
 
 header nav a {
@@ -46,64 +53,65 @@ header nav a:hover {
     background-color: #fff;
     min-height: 20vh;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: flex-end;
     text-align: right;
-    padding: 0%
-    
-    
+    padding: 1%;
+    background-image: url(./imgs/gradienta-gwE9vXSi7Xw-unsplash.jpg);
+    background-size: 100% 100%;
+
 }
 
-.hero div h2{
+.hero div h2 {
     font-size: 45px;
     background-color: rgb(120, 201, 215);
     color: #424C58;
 }
 
 .hero img {
-    width:2000px;
-    height: 200px;
-    display: flex;
-    align-items: stretch;
-    
+    width: 200px;
+    height: 300px;
+    border-radius: 100px;
+
 }
 
 /*MAIN*/
-main aside h2 {
-    padding: 10px;
-    margin: -5px;
-    min-height: 20vh;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: left;
-    color: #424C58;
-
+main {
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-div p {
+.side-bar {
+    padding: 10px;
     display: flex;
-    justify-content:center;
     flex-wrap: wrap;
-    text-align: justify;
-    margin-bottom: 50px;
-    margin-top: -50px;
-    padding-left: 150px;
-    padding-right: 100px;
-    margin-bottom: 0px;
-
+    align-items: stretch;
 }
 
-.contactme h2 {
-    padding: 10px;
-    margin: 0px;
-    min-height: 10vh;
+.side-bar > h2 {
+    flex: 0 0 20%;
+    padding-right: 10px;
+    border-right: 5px solid black;
+    text-align: right;
+    font-size: 40px;
+}
+
+.side-bar > div{
+    flex: 0 0 77%;  
+}
+
+
+#work a  {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: left;
-    color: #424C58;
+    min-height: 10vh;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1%;
+    background-image: url(./imgs/Pre-Work Study.png);
+    
 }
+
 
 .contactme div {
     display: flex;
