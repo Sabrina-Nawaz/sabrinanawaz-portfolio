@@ -97,6 +97,11 @@ main {
     font-size: 40px;
 }
 
+.side-bar p {
+    padding: 30px;
+    margin: 0px;
+}
+
 .side-bar > div{
     flex: 0 0 77%;  
 }
@@ -104,14 +109,40 @@ main {
 
 .study-guide  {
     display: flex;
-    min-height: 10vh;
+    min-height: 20vh;
+    margin: 30px;
     justify-content: space-between;
-    align-items: flex-end;
-    padding: 1%;
-    background-image: url(./imgs/Pre-Work\ Study.png)
+    padding: 0%;
+    background-repeat: no-repeat;
+    background-image: url(./imgs/Pre-Work\ Study.png);
     
 }
 
+.refactor {
+    display: flex;
+    min-height: 20vh;
+    margin: 30px;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    padding: 1%;
+    background-repeat: no-repeat;
+    background-image: url(./imgs/refactor.png);
+    
+    
+}
+
+.calculator {
+    display: flex;
+    min-height: 20vh;
+    margin: 30px;
+    justify-content: center;
+    align-items: ;
+    flex-direction: row-reverse;
+    padding: 1%;
+    background-repeat: no-repeat;
+    background-image: url(./imgs/calculator.png)
+}
 
 .contactme div {
     display: flex;
