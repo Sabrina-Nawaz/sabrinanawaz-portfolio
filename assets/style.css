@@ -1,6 +1,6 @@
 body {
-    padding: auto;
-    margin: auto;
+    padding: 0;
+    margin: 0;
     background-color: rgb(212, 225, 230);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
@@ -21,11 +21,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px
+    padding: 30px;
 }
 
 header h1 {
-    padding-left: 10px;
     background-color: rgb(120, 201, 215);
     color: #424C58;
 }
@@ -33,13 +32,16 @@ header h1 {
 header img {
     border: 2px solid #ddd;
     border-radius: 100px;
-    padding: 5px;
     height: 120px;
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
 }
 
 header nav a {
     text-decoration: none;
-    padding-right: 10px;
     color: white;
     font-size: 18px
 }
@@ -56,10 +58,8 @@ header nav a:hover {
     justify-content: space-between;
     align-items: flex-end;
     text-align: right;
-    padding: 1%;
     background-image: url(./imgs/gradienta-gwE9vXSi7Xw-unsplash.jpg);
     background-size: 100% 100%;
-
 }
 
 .hero div h2 {
@@ -72,75 +72,86 @@ header nav a:hover {
     width: 200px;
     height: 300px;
     border-radius: 100px;
+    margin: 30px;
 
 }
 
 /*MAIN*/
 main {
-    max-width: 85%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+section {
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .side-bar {
-    padding: 10px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
+    gap: 30px;
+
 }
 
 .side-bar > h2 {
     flex: 0 0 20%;
-    padding-right: 10px;
     border-right: 5px solid black;
     text-align: right;
-    font-size: 40px;
+    font-size: 30px;
 }
-
 .side-bar p {
-    padding: 30px;
-    margin: 0px;
+
+
 }
 
 .side-bar > div{
     flex: 0 0 77%;  
 }
 
+.anchor-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "studyguide studyguide"
+    "refactor calculator";
+    gap: 30px;
+}
+
+.responsive-img {
+    width: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+.study {
+    grid-area: studyguide;
+}
 
 .study-guide  {
-    display: flex;
-    min-height: 20vh;
-    margin: 30px;
-    justify-content: space-between;
-    padding: 0%;
-    background-repeat: no-repeat;
     background-image: url(./imgs/Pre-Work\ Study.png);
-    
+    padding-bottom: 16.62%;
 }
 
+.refact {
+    grid-area: refactor;
+}
 .refactor {
-    display: flex;
-    min-height: 20vh;
-    margin: 30px;
-    justify-content: space-between;
-    align-items: flex-end;
-    flex-direction: row;
-    padding: 1%;
-    background-repeat: no-repeat;
     background-image: url(./imgs/refactor.png);
-    
-    
+    padding-bottom: 50%;
 }
 
+.calc {
+    grid-area: calculator;
+}
 .calculator {
-    display: flex;
-    min-height: 20vh;
-    margin: 30px;
-    justify-content: center;
-    flex-direction:
-    padding: 1%;
-    background-repeat: no-repeat;
-    background-image: url(./imgs/calculator.png)
+    background-image: url(./imgs/calculator.png);
+    padding-bottom: 50%;
 }
 
 .contactme div {
@@ -152,7 +163,6 @@ main {
 .contactme a {
     display: flex;
     align-items: center;
-    padding-right: 10px;
     color: black;
     font-size: 20px;
 }
@@ -162,4 +172,26 @@ footer {
     padding: 75px;
     display: flex;
     justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .study-guide, .refactor, .calculator, .side-bar p
+    {
+        margin: 0;
+        
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .side-bar {
+        display: inline-block;
+    }
+
+    .side-bar h2 {
+        border-right: none;
+        border-bottom: 5px solid black;
+        text-align: left;
+    }
 }
